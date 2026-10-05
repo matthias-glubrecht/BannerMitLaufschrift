@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "banner-mit-laufschrift-client-side-solution",
+    "id": "ef6896e7-33dc-43a1-a0e5-1bfe983932ef",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Scrolling text banner in the Top placeholder of modern SharePoint pages"
+      },
+      "longDescription": {
+        "default": "SharePoint Framework Application Customizer that shows a scrolling text banner (Laufschrift) in the Top placeholder of every modern page of a site collection. Text and colors are set through the properties of a User Custom Action with scope Site; without colors, the site theme is used."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/banner-mit-laufschrift.sppkg"
+  }
+}
